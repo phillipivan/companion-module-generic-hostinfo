@@ -48,6 +48,7 @@ class Host_Info extends InstanceBase {
 		let vars = []
 		let loadavg = os.loadavg()
 		vars['freemem'] = os.freemem()
+		vars['freememPercent'] = Math.round(os.freemem() / os.totalmem() * 100)
 		vars['loadav_1'] = loadavg[0]
 		vars['loadav_5'] = loadavg[1]
 		vars['loadav_15'] = loadavg[2]
@@ -64,6 +65,7 @@ class Host_Info extends InstanceBase {
 		let userInfo = os.userInfo()
 		vars['arch'] = os.arch()
 		vars['freemem'] = os.freemem()
+		vars['freememPercent'] = Math.round(os.freemem() / os.totalmem() * 100)
 		vars['hostname'] = os.hostname()
 		vars['loadav_1'] = loadavg[0]
 		vars['loadav_5'] = loadavg[1]
@@ -86,6 +88,7 @@ class Host_Info extends InstanceBase {
 		this.setVariableDefinitions([
 			{ variableId: 'arch', name: 'Architecture' },
 			{ variableId: 'freemem', name: 'Free Memory (b)' },
+			{ variableId: 'freememPercent', name: 'Free Memory (%)' },
 			{ variableId: 'hostname', name: 'Host Name' },
 			{ variableId: 'loadav_1', name: 'Load Average: 1 Minute' },
 			{ variableId: 'loadav_5', name: 'Load Average: 5 Minute' },
