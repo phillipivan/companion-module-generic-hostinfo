@@ -671,9 +671,9 @@ callsites@^3.0.0:
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
 caniuse-lite@^1.0.30001629:
-  version "1.0.30001634"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001634.tgz#aa563c8e7aeaf552f7ead60371bc8d803425deaa"
-  integrity sha512-fbBYXQ9q3+yp1q1gBk86tOFs4pyn/yxFm5ZNP18OXJDfA3txImOY9PhfxVggZ4vRHDqoU8NrKU81eN0OtzOgRA==
+  version "1.0.30001636"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001636.tgz#b15f52d2bdb95fad32c2f53c0b68032b85188a78"
+  integrity sha512-bMg2vmr8XBsbL6Lr0UHXy/21m84FTxDLWn2FSqMd5PrlbMxwJlQnC2YWYxVgp66PZE+BBNF2jYQUBKCo1FDeZg==
 
 chalk@^4.0.0:
   version "4.1.2"
@@ -795,9 +795,9 @@ ejson@^2.2.3:
   integrity sha512-hsFvJp6OpGxFRQfBR3PSxFpaPALdHDY+SB3TRbMpLWNhvu8GzLiZutof5+/DFd2QekZo3KyXau75ngdJqQUSrw==
 
 electron-to-chromium@^1.4.796:
-  version "1.4.802"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.802.tgz#49b397eadc95a49b1ac33eebee146b8e5a93773f"
-  integrity sha512-TnTMUATbgNdPXVSHsxvNVSG0uEd6cSZsANjm8c9HbvflZVVn1yTRcmVXYT1Ma95/ssB/Dcd30AHweH2TE+dNpA==
+  version "1.4.803"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.803.tgz#cf55808a5ee12e2a2778bbe8cdc941ef87c2093b"
+  integrity sha512-61H9mLzGOCLLVsnLiRzCbc63uldP0AniRYPV3hbGVtONA1pI7qSGILdbofR7A8TMbOypDocEAjH/e+9k1QIe3g==
 
 enhanced-resolve@^5.17.0:
   version "5.17.0"
@@ -1952,6 +1952,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+systeminformation@~5.22.11:
+  version "5.22.11"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.22.11.tgz#42be7b650ce0a8b940c06219a6647f6ab3f7a349"
+  integrity sha512-aLws5yi4KCHTb0BVvbodQY5bY8eW4asMRDTxTW46hqw9lGjACX6TlLdJrkdoHYRB0qs+MekqEq1zG7WDnWE8Ug==
 
 tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"
