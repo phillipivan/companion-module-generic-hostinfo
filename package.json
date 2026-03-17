@@ -1,6 +1,6 @@
 {
 	"name": "generic-hostinfo",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "src/main.js",
 	"type": "module",
 	"scripts": {
@@ -15,17 +15,17 @@
 		"url": "git+https://github.com/phillipivan/companion-module-generic-hostinfo.git"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.11.3",
-		"systeminformation": "~5.22.11"
+		"@companion-module/base": "~1.14.1",
+		"systeminformation": "~5.31.4"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^2.1.1",
-		"eslint": "^9.21.0",
-		"prettier": "~3.5.3"
+		"@companion-module/tools": "^2.7.1",
+		"eslint": "^9.39.4",
+		"prettier": "~3.8.1"
 	},
 	"engines": {
 		"node": "^22.13"
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json",
-	"packageManager": "yarn@4.7.0"
+	"packageManager": "yarn@4.13.0"
 }
