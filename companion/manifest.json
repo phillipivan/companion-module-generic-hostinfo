@@ -1,7 +1,8 @@
 {
 	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
 	"id": "generic-hostinfo",
-	"name": "generic-hostinfo",
+	"name": "Host Info",
 	"shortname": "Host Info",
 	"description": "Map system info to companion variables",
 	"version": "0.0.0",
@@ -15,10 +16,10 @@
 		}
 	],
 	"runtime": {
-		"type": "node22",
+		"type": "node26",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
-		"entrypoint": "../main.js",
+		"entrypoint": "../dist/main.js",
 		"permissions": {
 			"child-process": true,
 			"filesystem": true
